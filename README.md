@@ -30,7 +30,7 @@ This is a personal project using [Playwright](https://playwright.dev/) for end-t
 4. Running Tests in CI
    This project includes a GitHub Actions workflow located in .github/workflows/ to automate tests in CI/CD pipelines.
 
-Project Highlights
+### Project Highlights
 
 - Page Object Model: Organized page objects in the pages/ directory.
   - elements (locators)
