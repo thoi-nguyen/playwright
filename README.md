@@ -33,11 +33,12 @@ Comprehensive Reporting: Generates detailed HTML reports in the playwright-repor
 
 # SQL Test
 
-1.  SELECT \*
+1.  ```SELECT *
     FROM CITY
     WHERE COUNTRYCODE = 'USA'
     AND POPULATION > 12500;
-2.  SELECT DISTINCT
+    ```
+2.  ```SELECT DISTINCT
     p.product_name,
     l.location_name,
     l.city
@@ -45,6 +46,7 @@ Comprehensive Reporting: Generates detailed HTML reports in the playwright-repor
     JOIN Products p ON t.product_id = p.product_id
     JOIN Locations l ON t.location_id = l.location_id
     WHERE t.transaction_date BETWEEN '2021-03-01' AND '2021-03-31';
+    ```
 
 # Codility
 
