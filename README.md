@@ -13,18 +13,17 @@ This is a personal project using [Playwright](https://playwright.dev/) for end-t
 
 ### Installation
 
-1. Clone the repository:
+1. Install dependencies:
    ```bash
-   git clone <repository-url>
-   cd playwright# playwright
+    npm install
    ```
-2. Install dependencies:
-   npm install
-3. To execute all tests:
+2. To execute all tests:
+   ```bash
    npx playwright test
-4. To execute tests in ui mode
+   ```
+3. To execute tests in ui mode
    npx playwright test --ui
-   Running Tests in CI
+4. Running Tests in CI
    This project includes a GitHub Actions workflow located in .github/workflows/ to automate tests in CI/CD pipelines.
 
 Project Highlights
@@ -32,9 +31,7 @@ Page Object Model: Organized page objects in the pages/ directory.
 Data-Driven Testing: Uses JSON files in the data/ directory for test data.
 Comprehensive Reporting: Generates detailed HTML reports in the playwright-report/ directory.
 
-#####
-
-SQL Test
+# SQL Test
 
 1.  SELECT \*
     FROM CITY
@@ -49,7 +46,7 @@ SQL Test
     JOIN Locations l ON t.location_id = l.location_id
     WHERE t.transaction_date BETWEEN '2021-03-01' AND '2021-03-31';
 
-####
+# Codility
 
 function sumOfDigits(num) {
 if (num === 0) return 0;
