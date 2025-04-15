@@ -22,14 +22,21 @@ This is a personal project using [Playwright](https://playwright.dev/) for end-t
    npx playwright test
    ```
 3. To execute tests in ui mode
+
+```bash
    npx playwright test --ui
+```
+
 4. Running Tests in CI
    This project includes a GitHub Actions workflow located in .github/workflows/ to automate tests in CI/CD pipelines.
 
 Project Highlights
-Page Object Model: Organized page objects in the pages/ directory.
-Data-Driven Testing: Uses JSON files in the data/ directory for test data.
-Comprehensive Reporting: Generates detailed HTML reports in the playwright-report/ directory.
+
+- Page Object Model: Organized page objects in the pages/ directory.
+  - elements (locators)
+  - page actions (methods)
+- Data-Driven Testing: Uses JSON files in the data/ directory for test data.
+- Comprehensive Reporting: Generates detailed HTML reports in the playwright-report/ directory.
 
 # SQL Test
 
@@ -50,7 +57,9 @@ Comprehensive Reporting: Generates detailed HTML reports in the playwright-repor
 
 # Codility
 
+```
 function sumOfDigits(num) {
 if (num === 0) return 0;
 return (num % 10) + sumOfDigits(Math.floor(num / 10));
 }
+```

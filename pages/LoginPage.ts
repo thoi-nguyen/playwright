@@ -1,7 +1,8 @@
 import { Page } from "@playwright/test";
 import dotenv from "dotenv";
 dotenv.config();
-const BASE_FE_URL = process.env.BASE_FE_URL;
+
+let BASE_FE_URL = process.env.BASE_FE_URL;
 
 export class LoginPage {
   readonly page: Page;
@@ -15,12 +16,12 @@ export class LoginPage {
   }
 
   async navigate() {
-    if (!process.env.BASE_FE_URL) {
+    if (!BASE_FE_URL) {
       throw new Error(
         "BASE_FE_URL is not defined in the environment variables"
       );
     }
-    await this.page.goto(process.env.BASE_FE_URL);
+    await this.page.goto(BASE_FE_URL);
   }
 
   async login(username: string, password: string) {
