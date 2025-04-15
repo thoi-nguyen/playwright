@@ -1,6 +1,6 @@
 # Playwright Project
 
-This is a personal project using [Playwright](https://playwright.dev/) for end-to-end testing and automation.
+This is a personal project using [Playwright](https://playwright.dev/) for end-to-end testing and api automation.
 
 ## Project Structure
 
@@ -22,11 +22,9 @@ This is a personal project using [Playwright](https://playwright.dev/) for end-t
    npx playwright test
    ```
 3. To execute tests in ui mode
-
-```bash
+   ```bash
    npx playwright test --ui
-```
-
+   ```
 4. Running Tests in CI
    This project includes a GitHub Actions workflow located in .github/workflows/ to automate tests in CI/CD pipelines.
 
