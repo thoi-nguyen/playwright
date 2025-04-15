@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sauce-labs-backpack",
+    "title": "Sauce Labs Backpack",
+    "price": 29.99,
+    "description": "A red backpack with the Sauce Labs logo.",
+    "image": "/images/sauce-labs-backpack.jpg"
+  },
+  {
+    "id": "sauce-labs-bike-light",
+    "title": "Sauce Labs Bike Light",
+    "price": 9.99,
+    "description": "A bike light with the Sauce Labs logo.",
+    "image": "/images/sauce-labs-bike-light.jpg"
+  },
+  {
+    "id": "sauce-labs-bolt-t-shirt",
+    "title": "Sauce Labs Bolt T-Shirt",
+    "price": 15.99,
+    "description": "A t-shirt with the Sauce Labs Bolt logo.",
+    "image": "/images/sauce-labs-bolt-t-shirt.jpg"
+  }
+]
